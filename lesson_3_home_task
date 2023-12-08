@@ -1,0 +1,28 @@
+// String
+dogName = "Luna"
+console.log("My dog's name is " + dogName)
+
+// Number
+dogAge = 9
+console.log("My dog's age is " + dogAge)
+
+// Boolean
+a = 678
+b = 999
+console.log(a != b)
+
+// Undefined
+dogBreeds = []
+console.log(dogBreeds[0])
+
+// Object
+dogNames = { girl: "Lumi", boy: "Tino" };
+console.log(dogNames.girl)
+
+// Null
+function getVowelSounds(word) {
+    sounds = word.match(/aeiu/gi);
+    return sounds
+}
+
+console.log(getVowelSounds("lumi"));
